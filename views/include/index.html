@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel ="stylesheet" href ="http">
+    <link rel ="stylesheet" href ='./assests/css/style.css'>
+
+</head>
+<body>
+    <header id ='header'>
+        <nav>
+            <div class='container'>
+                <div class='text-center'>
+                    <a href="/" class='nav-brand text-user'> Employee Management System</a>
+                </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Main Site-->
+    <main id ="site-maim">
+        <div class=""container>
+            <div class="box-nav d-flex-justify-between">
+                <a href ="/add-user" class="border-shadow">
+                    <span class ="text-gradient">New User<i class="fas fa-user"></span>
+                </a>
+
+            </div>
+
+            <form action="/" method="POST">
+                <table class=""table>
+                    <thead class="thread-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>NAME</th>
+                            <th>@EMAIL ID</th>
+                            <th>GENDER</th>
+                            <th> ACTION</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                           
+                            <td>1</td>
+                            <td>Username</td>
+                            <td>example@gmail.com</td>
+                            <td>Male/Female</td>
+                            <td>Active</td>
+                            <td>
+                                <a href ='#' class="btn border-shadow Edit">
+                                    <span class="text-gradient"> <i class ="fas-fa-pancil-alt"></i></span>
+                                </a>
+                                <a href  ='#' class="btn border-shadow Delete">
+                                    <span class="text-gradient"> <i class ="fas-fa-pancil-alt"></i></span>
+                                </a>
+                            </td>
+
+                        </tr>
+                
+                    </tbody>
+
+                </table>
+            </form>
+        </div>
+    </main>
+    
+
+    
+    
+</body>
+</html>
+
+
+
